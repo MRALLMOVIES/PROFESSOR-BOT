@@ -232,12 +232,24 @@ Wᴇʟᴄᴏᴍᴇ ᴛᴏ {chat}.
 
 ꜱʜᴀʀᴇ & ꜱᴜᴩᴩᴏʀᴛ, ʀᴇqᴜᴇꜱᴛ ʏᴏᴜ ᴡᴀɴᴛᴇᴅ ᴍᴏᴠɪᴇꜱ"""
   
-    IMDB_TEMPLATE = """<b>Qᴜᴇʀʏ: {query}</b>
+    IMDB_TEMPLATE = """<b>Query: {query}</b> 
+IMDb Data:
 
-🏷 Tɪᴛʟᴇ: <a href={url}>{title}</a>
-🎭 Gᴇɴʀᴇꜱ: {genres}
-📆 Yᴇᴀʀ: <a href={url}/releaseinfo>{year}</a>
-🌟 Rᴀᴛɪɴɢ: <a href={url}/ratings>{rating}</a>/10"""
+<b>🏷 Title</b>: <a href={url}>{title}</a>
+<b>🎭 Genres</b>: {genres}
+<b>📆 Year</b>: <a href={url}/releaseinfo>{year}</a>
+<b>🌟 Rating</b>: <a href={url}/ratings>{rating}</a>
+<b>☀ Languages</b> : <code>{languages}</code>
+<b>👨‍💼 Dɪʀᴇᴄᴛᴏʀ</b>: {director}
+<b>👨🏻‍🦱 Pʀᴏᴅᴜᴄᴇʀ</b>: {producer}
+<b>📑 wʀɪᴛᴇʀ</b>: {writer}
+<b>📀 RunTime</b>: {runtime} Minutes
+<b>📆 Release Info</b> : {release_date}
+<b>🎛 Countries</b> : <code>{countries}</code>
+<b>📓 Sᴛᴏʀy</b> : <code>{plot}</code>
+
+
+<b>🍀Requested by🍀</b> : {message.from_user.mention}"""
    
   
  
