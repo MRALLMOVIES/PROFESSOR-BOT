@@ -4,6 +4,18 @@ class script(object):
 Mʏ Nᴀᴍᴇ Is {bot}.
 
 I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ</b>"""
+
+
+    CUSTOM_FILE_CAPTION_TXT = """<b>°• MR. ALL MOVIES •°</b>  
+
+
+{file_name}  
+
+💾 Sɪᴢᴇ: {file_size}  
+
+<b>Movie Group 👉 <b/> <a href='https://t.me/mrallmoviesrequestgroup'>CLICK HERE</a>  
+<b>Main Channel 👉 <b/> <a href='https://t.me/mrallmovieschannel'>CLICK HERE</a>"""
+
     
     HELP_TXT = "Hᴇʏ {}\nHᴇʀᴇ Mꜱ Mʏ Hᴇʟᴩ"
 
